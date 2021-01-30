@@ -1,3 +1,4 @@
 Hi! I'm Alice. I'm a file someone added to this repository a while ago.
 Now I am adding more text. And now I am changing it.
 This is another edit!
+Adding to create a merge conflict.
