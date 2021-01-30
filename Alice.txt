@@ -4,3 +4,9 @@ This is another edit!
 Adding to create a merge conflict.
 Now I am adding more text. And now I am changing it. This will be helpful with rebasing.
  Added text to Alice for rebasing
+Now I am adding more text. And now I am changing it. This will be helpful with rebasing.
+This is another edit.
+Now I am adding more text. And now I am changing it.
+This is another edit!
+This is another edit. Git stash is helpful.
+ Alice file is updated
