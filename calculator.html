@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <form name="input" action="calculator.php" method="GET">
+        First Number: <input type="float" name="num1"/><br>
+        <input type="radio" id="plus" name="operation" value="add">
+        <label for="plus">+ (Add)</label><br>
+        <input type="radio" id="minus" name="operation" value="subtract">
+        <label for="minus">- (Subtract)</label><br>
+        <input type="radio" id="multiply" name="operation" value="multiply">
+        <label for="multiply">* (Multiply)</label><br>
+        <input type="radio" id="divide" name="operation" value="divide">
+        <label for="divide">/ (Divide)</label><br>
+        Second Number: <input type="float" name="num2"/> <br>
+        <input type="submit" value="Calculate"/>
+    </form>
+</body>
+</html>
