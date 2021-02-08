@@ -1,6 +1,6 @@
 <?php
-$num1 = (float)$_GET["num1"];
-$num2 = (float)($_GET)["num2"];
+$num1 = (float) $_GET["num1"];
+$num2 = (float) ($_GET)["num2"];
 $result = 0;
 $operation = $_GET["operation"];
 if ($operation == "add"){
