@@ -1,6 +1,6 @@
 <?php
-$num1 = $_GET["num1"];
-$num2 = $_GET["num2"];
+$num1 = (float)$_GET["num1"];
+$num2 = ($_GET)["num2"];
 $result = 0;
 $operation = $_GET["operation"];
 if ($operation == "add"){
@@ -20,5 +20,5 @@ elseif($operation == "divide"){
         $result = $num1/$num2;
     }
 }
-echo $result;
+echo htmlentities(result);
 ?>
